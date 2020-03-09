@@ -1,0 +1,39 @@
+.inicio{
+    background-image: url("fundo.png");
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+}
+
+#menu {
+    position: sticky;
+    margin: -10px -10%;
+    width: 120%;
+    height: 80px;
+    top:0px;
+    background-color: cyan;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    display: block;
+}
+
+#menu a, a:visited{
+
+}
+
+#menu a.simple, #menu a.simple:visited {
+  font-size: 25px;
+  color: rgb(255, 81, 0);
+  text-decoration: none;
+}
+
+a.simple:hover{
+  font-size: 25px;
+  color: rgb(255, 8, 0);
+
+}
+
+a.simple:active {
+  font-size: 25px;
+  color: rgb(255, 229, 85);
+}
