@@ -12,6 +12,7 @@ h1 {
 
 p {
     font-size: 25px;
+    text-indent: 2cm;
 }
 
 
@@ -42,6 +43,7 @@ a.current, a.current:visited {
   display: inline-block;
   height: 40px;
   width: 16.5%;
+  padding: -1px 1px 0px;
   font-size: 30px;
   margin: 0px 1px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -83,4 +85,12 @@ a.simple:active {
   padding-bottom: 3px;
   display: block;
 
+}
+
+img {
+  display: block;
+  width: 30%;
+  border: 2px groove rgb(255, 8, 0);
+  margin-left: auto;
+  margin-right: auto;
 }
